@@ -10,10 +10,12 @@ function pattern9(n: number): string {
       result += " ";
     }
 
+    // Star
     for (let k = 0; k < star; k++) {
       result += "*";
     }
 
+    // Right Space
     for (let j = 0; j < space; j++) {
       result += " ";
     }

@@ -7,6 +7,7 @@ function pattern8(n: number): string {
       result += " ";
     }
 
+    //Star
     for (let k = 0; k < (n - (i + 1)) * 2 + 1; k++) {
       result += "*";
     }
