@@ -1,38 +1,11 @@
-const A_Z = [
-  "A",
-  "B",
-  "C",
-  "D",
-  "E",
-  "F",
-  "G",
-  "H",
-  "I",
-  "J",
-  "K",
-  "L",
-  "M",
-  "N",
-  "O",
-  "P",
-  "Q",
-  "R",
-  "S",
-  "T",
-  "U",
-  "V",
-  "W",
-  "X",
-  "Y",
-  "Z",
-];
+import { CAPITAL_ALPHABETS } from "../constants/alphabets.constant.js";
 
 function pattern14(n: number): string {
   let result = "";
 
   for (let i = 1; i <= n; i++) {
     for (let j = 1; j <= i; j++) {
-      result += A_Z[j - 1];
+      result += CAPITAL_ALPHABETS[j - 1];
     }
     result += "\n";
   }
