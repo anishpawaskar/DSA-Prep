@@ -1,0 +1,3 @@
+- Most of the pattern are solved using nested loops
+- The outer loop is used for rows
+- The inner loop is used for columns
